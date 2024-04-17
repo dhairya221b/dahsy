@@ -10,7 +10,6 @@ RUN \
   'linux/arm64') apk add --no-cache python3 make g++ ;; \
   'linux/arm/v7') apk add --no-cache python3 make g++ ;; \
   esac
-
 # Create and set the working directory
 WORKDIR /app
 
